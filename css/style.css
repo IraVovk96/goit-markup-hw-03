@@ -55,10 +55,12 @@ body {
   background-color: #ffffff;
 }
 /*====================HEADER==============*/
-.page-header-conteiner {
+.page-header {
+  border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
+}
+.page-header-container {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
 }
 .page-navigation {
   display: flex;
@@ -117,11 +119,14 @@ body {
 .address-link:focus {
   color: #404bbf;
 }
+.retreat {
+  padding: 120px 0 120px;
+}
 /*================SECTION1============*/
 
 .main-page {
   background-color: #2e2f42;
-  padding-bottom: 188px;
+  padding: 188px 0 188px;
 }
 .main-title {
   color: #fff;
@@ -160,11 +165,10 @@ body {
   background-color: #404bbf;
 }
 /*===============SECTION BENEFITS============*/
-.benefits-conteiner {
+
+.benefits-container {
   display: flex;
   gap: 24px;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 .subtitle {
   color: #2e2f42;
@@ -172,6 +176,7 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .text-benefits {
   font-size: 16px;
