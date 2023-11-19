@@ -48,6 +48,7 @@ p {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+  border-top: none;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -262,7 +263,6 @@ body {
   flex-direction: column;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
-  border-top: none;
 }
 .portfolio-pic {
   width: calc((100% - 48px) / 3);
