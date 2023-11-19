@@ -257,9 +257,11 @@ body {
   padding-left: 0;
   gap: 24px;
   row-gap: 48px;
+  width: calc((100% - 48px) / 3);
 }
 .portfolio-pic {
-  width: calc((100% - 48px) / 3);
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 .tet-portfolio {
   background-color: var #fff;
@@ -272,10 +274,6 @@ body {
 .holder {
   padding-top: 120px;
   padding-bottom: 120px;
-}
-.container-portfolio {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
 }
 /*===================FOOTER===============*/
 .footer-box {
