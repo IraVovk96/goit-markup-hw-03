@@ -255,16 +255,14 @@ body {
   gap: 24px;
   row-gap: 48px;
 }
-.new-container {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-}
 
 .tet-portfolio {
   background-color: var #fff;
   gap: 8px;
   align-items: flex-start;
   flex-direction: column;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 .portfolio-pic {
   width: calc((100% - 48px) / 3);
